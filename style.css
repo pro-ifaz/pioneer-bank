@@ -1,5 +1,9 @@
 body{
     padding: 100px;
+    background-image: url(img/bank.jpg);
+}
+h1{
+    color: white;
 }
 .bank-title{
     text-align: center;
@@ -8,7 +12,9 @@ body{
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
+    background-image: linear-gradient(to left, rgb(248, 180, 180), rgb(176, 204, 198) );
     padding: 40px;
+    color: white;
 }
 #transaction-area{
     display: none;
