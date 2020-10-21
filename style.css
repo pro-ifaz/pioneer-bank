@@ -4,17 +4,21 @@ body{
 }
 h1{
     color: white;
+    background-image: linear-gradient(to left, slateblue, salmon, rgb(255, 217, 147));
+    border-radius: 10px;
+    padding: 10px;
 }
 .bank-title{
     text-align: center;
 }
 .submit-area{
+    border: 10px ;
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
-    background-image: linear-gradient(to left, rgb(248, 180, 180), rgb(176, 204, 198) );
+    background-image: linear-gradient(to left, slateblue, salmon, rgb(255, 218, 148));
     padding: 40px;
-    color: white;
+    
 }
 #transaction-area{
     display: none;
